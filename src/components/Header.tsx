@@ -25,7 +25,7 @@ export function Header({
     { href: '#features', label: 'Features' },
     { href: '#testimonials', label: 'Testimonials' },
     { href: '#join', label: 'Join Us' },
-    { href: 'https://discord.gg/E8FscEVuhy', label: 'Discord', external: true },
+    { href: '/invite', label: 'Discord', external: true },
   ],
   showCTA = true,
   ctaText = 'Download Now',

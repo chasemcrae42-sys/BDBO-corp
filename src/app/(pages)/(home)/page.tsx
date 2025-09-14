@@ -12,7 +12,7 @@ import { ArrowRight, Users, Zap, Trophy, Gamepad2, MessageCircle, Sparkles, Rock
 import Link from "next/link"
 
 export default function HomePage() {
-  const discordInviteLink = "https://discord.gg/E8FscEVuhy"
+  const discordInviteLink = "/invite"
 
   return (
     <main className="min-h-screen">
@@ -30,7 +30,7 @@ export default function HomePage() {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center pt-8">
-              <Link href={discordInviteLink} target="_blank">
+              <Link href={discordInviteLink}>
                 <Button size="lg" className="text-lg px-8 py-6 bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 transform hover:scale-105 transition-all">
                   <MessageCircle className="mr-2" />
                   Join the Brotherhood
