@@ -1,9 +1,18 @@
 {
   "slug": "home",
   "seo": {
-    "title": "Valiance Media - Modern Marketing Website Solutions",
-    "description": "Build high-converting marketing websites with our Next.js boilerplate. Professional templates, SEO optimization, and modern design patterns included.",
-    "keywords": ["marketing website", "nextjs boilerplate", "web development", "conversion optimization", "landing pages", "SEO"],
+    "title": "BDBO Corporation - Discord Community for Bros",
+    "description": "Join BDBO Corporation, the ultimate Discord server where bros unite, memes are currency, and fun is mandatory. Gaming sessions, meme economy, and zero drama policy.",
+    "keywords": [
+      "BDBO Corporation",
+      "Discord server",
+      "gaming community",
+      "meme community",
+      "bros Discord",
+      "gaming Discord",
+      "Discord community",
+      "online community"
+    ],
     "noIndex": false
   },
   "sitemap": {
@@ -13,9 +22,7 @@
   },
   "metadata": {
     "category": "homepage",
-    "author": "Valiance Media",
-    "lastModified": "2024-01-01"
+    "author": "BDBO Corporation",
+    "lastModified": "2025-01-14"
   }
 }
-
-
