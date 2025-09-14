@@ -1,0 +1,61 @@
+{
+  "name": "bdbo-corporation",
+  "version": "1.0.0",
+  "description": "BDBO Corporation Discord Community Website - Where bros unite and vibes are immaculate",
+  "author": "BDBO Corp",
+  "license": "MIT",
+  "private": false,
+  "keywords": [
+    "discord",
+    "community",
+    "gaming",
+    "bdbo",
+    "corporation",
+    "bros"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bdbocorp/website"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "node scripts/ensure-page-seo.js && node scripts/generate-sitemap-pages.js && node scripts/generate-routes.js && node scripts/generate-pages-config.js && next build",
+    "ensure-seo": "node scripts/ensure-page-seo.js",
+    "start": "next start",
+    "lint": "next lint",
+    "lint:fix": "next lint --fix",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,css,md}\"",
+    "format:check": "prettier --check \"**/*.{js,jsx,ts,tsx,json,css,md}\"",
+    "type-check": "tsc --noEmit",
+    "generate-routes": "node scripts/generate-routes.js",
+    "generate-pages": "node scripts/generate-pages-config.js",
+    "generate-sitemap": "node scripts/generate-sitemap-pages.js",
+    "setup-auth": "npx tsx scripts/setup-auth.ts"
+  },
+  "dependencies": {
+    "@heroicons/react": "^2.2.0",
+    "@octokit/rest": "^22.0.0",
+    "@radix-ui/react-avatar": "^1.1.10",
+    "@radix-ui/react-separator": "^1.1.7",
+    "@radix-ui/react-slot": "^1.2.3",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.544.0",
+    "next": "15.4.5",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "tailwind-merge": "^3.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^9.0.0",
+    "eslint-config-next": "15.4.5",
+    "postcss": "^8.5.6",
+    "prettier": "^3.3.3",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5"
+  }
+}
