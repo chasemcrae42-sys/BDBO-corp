@@ -25,9 +25,17 @@ export default function HomePage() {
               <span className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent"> CORPORATION</span>
             </h1>
 
-            <p className="text-xl md:text-2xl lg:text-3xl max-w-3xl mx-auto leading-relaxed">
-              Where bros unite, memes are currency, and taking shit seriously is strictly prohibited
-            </p>
+            <div className="space-y-4">
+              <p className="text-2xl md:text-3xl lg:text-4xl font-bold text-purple-600 dark:text-purple-400">
+                Big Dick Beat Off
+              </p>
+              <p className="text-xl md:text-2xl lg:text-3xl max-w-3xl mx-auto leading-relaxed">
+                Keep Calm and Beat Off™
+              </p>
+              <p className="text-lg md:text-xl text-gray-600 dark:text-gray-400">
+                Where chimps unite, pies are sacred, and we're all absolutely fried
+              </p>
+            </div>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center pt-8">
               <Link href={discordInviteLink}>
@@ -39,7 +47,7 @@ export default function HomePage() {
               </Link>
               <Button size="lg" variant="outline" className="text-lg px-8 py-6 border-purple-600 dark:border-purple-400 hover:bg-purple-100 dark:hover:bg-purple-900/20 transition-all duration-300">
                 <Beer className="mr-2" />
-                Learn the Lore
+                Smash Some Cold Ones
               </Button>
             </div>
 
@@ -52,8 +60,8 @@ export default function HomePage() {
                 ))}
               </div>
               <div className="text-left">
-                <p className="text-2xl font-bold">420+ Bros</p>
-                <p className="text-gray-600 dark:text-gray-400">Currently vibing</p>
+                <p className="text-2xl font-bold">420+ Chimps</p>
+                <p className="text-gray-600 dark:text-gray-400">Currently fried</p>
               </div>
             </div>
           </div>
@@ -61,13 +69,16 @@ export default function HomePage() {
 
         {/* Floating elements for fun */}
         <div className="absolute top-20 left-10 animate-bounce">
-          <span className="text-6xl">🚀</span>
+          <span className="text-6xl">🥧</span>
         </div>
         <div className="absolute top-40 right-20 animate-pulse">
-          <span className="text-5xl">💎</span>
+          <span className="text-5xl">🍺</span>
         </div>
         <div className="absolute bottom-20 left-1/4 animate-bounce delay-150">
-          <span className="text-4xl">🎮</span>
+          <span className="text-4xl">🦍</span>
+        </div>
+        <div className="absolute top-60 left-3/4 animate-pulse delay-300">
+          <span className="text-5xl">🍆</span>
         </div>
       </section>
 
@@ -78,10 +89,10 @@ export default function HomePage() {
         <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-black mb-6">
-            Why BDBO Hits Different
+            Why BDBO Goes <span className="text-purple-600">HARD</span>
           </h2>
           <p className="text-xl lg:text-2xl text-gray-600 dark:text-gray-400">
-            We're not your average Discord server, we're a lifestyle
+            We're not just apes, we're airborne chimp aids spreading joy
           </p>
         </div>
 
@@ -89,11 +100,11 @@ export default function HomePage() {
           <Card className="hover:shadow-lg transition-all duration-300 hover:scale-105">
             <CardHeader>
               <Gamepad2 className="w-12 h-12 text-purple-400 mb-4" />
-              <CardTitle className="text-2xl">Gaming Sessions</CardTitle>
+              <CardTitle className="text-2xl">Ape Gaming</CardTitle>
             </CardHeader>
             <CardContent>
               <CardDescription className="text-lg">
-                Daily gaming sessions where tryhard mode is banned and fun is mandatory
+                Get absolutely fried with the chimps. Sweating is forbidden, beating off encouraged
               </CardDescription>
             </CardContent>
           </Card>
@@ -101,11 +112,11 @@ export default function HomePage() {
           <Card className="hover:shadow-lg transition-all duration-300 hover:scale-105">
             <CardHeader>
               <Zap className="w-12 h-12 text-yellow-400 mb-4" />
-              <CardTitle className="text-2xl">Meme Economy</CardTitle>
+              <CardTitle className="text-2xl">Pie Appreciation</CardTitle>
             </CardHeader>
             <CardContent>
               <CardDescription className="text-lg">
-                Our memes are so fire, they're basically a decentralized currency at this point
+                Weekly pie rankings, pie eating contests, and heated debates about cream vs fruit pies
               </CardDescription>
             </CardContent>
           </Card>
@@ -113,11 +124,11 @@ export default function HomePage() {
           <Card className="hover:shadow-lg transition-all duration-300 hover:scale-105">
             <CardHeader>
               <Trophy className="w-12 h-12 text-amber-400 mb-4" />
-              <CardTitle className="text-2xl">Pointless Competitions</CardTitle>
+              <CardTitle className="text-2xl">Beat Off Battles</CardTitle>
             </CardHeader>
             <CardContent>
               <CardDescription className="text-lg">
-                Weekly contests for the most random shit. Last week: Best MS Paint artwork
+                Competitive beating off (in games, obviously). Loser buys the pies
               </CardDescription>
             </CardContent>
           </Card>
@@ -125,11 +136,11 @@ export default function HomePage() {
           <Card className="hover:shadow-lg transition-all duration-300 hover:scale-105">
             <CardHeader>
               <Users className="w-12 h-12 text-green-400 mb-4" />
-              <CardTitle className="text-2xl">Voice Chaos</CardTitle>
+              <CardTitle className="text-2xl">Chimp Channels</CardTitle>
             </CardHeader>
             <CardContent>
               <CardDescription className="text-lg">
-                24/7 voice channels where conversations range from deep philosophy to potato rankings
+                24/7 voice chaos where "Hey" and "Sure" are complete conversations
               </CardDescription>
             </CardContent>
           </Card>
@@ -137,11 +148,11 @@ export default function HomePage() {
           <Card className="hover:shadow-lg transition-all duration-300 hover:scale-105">
             <CardHeader>
               <Rocket className="w-12 h-12 text-red-400 mb-4" />
-              <CardTitle className="text-2xl">Random Events</CardTitle>
+              <CardTitle className="text-2xl">Cold Ones & Chaos</CardTitle>
             </CardHeader>
             <CardContent>
               <CardDescription className="text-lg">
-                Spontaneous movie nights, roast battles, and whatever chaos we cook up at 3 AM
+                Smashing beers, eating pies, and spreading airborne chimp aids at 3 AM
               </CardDescription>
             </CardContent>
           </Card>
@@ -149,11 +160,11 @@ export default function HomePage() {
           <Card className="hover:shadow-lg transition-all duration-300 hover:scale-105">
             <CardHeader>
               <Sparkles className="w-12 h-12 text-pink-400 mb-4" />
-              <CardTitle className="text-2xl">Zero Drama Policy</CardTitle>
+              <CardTitle className="text-2xl">Get Fried Together</CardTitle>
             </CardHeader>
             <CardContent>
               <CardDescription className="text-lg">
-                We're here to vibe, not to beef. Drama stays in your Netflix queue
+                We're all absolutely fried here. Join us in our collective brain cell shortage
               </CardDescription>
             </CardContent>
           </Card>
@@ -168,10 +179,10 @@ export default function HomePage() {
         <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-black mb-6">
-            What The Bros Say
+            What The <span className="text-purple-600">Chimps</span> Say
           </h2>
           <p className="text-xl lg:text-2xl text-gray-600 dark:text-gray-400">
-            100% real testimonials (trust us bro)
+            100% real apes spreading the good word
           </p>
         </div>
 
@@ -179,15 +190,15 @@ export default function HomePage() {
           <Card className="hover:shadow-lg transition-all duration-300">
             <CardContent className="pt-6">
               <p className="text-lg mb-4">
-                "Joined for the memes, stayed for the absolutely unhinged 3 AM voice chats"
+                "Hey. Sure. That's it, that's the whole conversation. 10/10 would chimp again"
               </p>
               <div className="flex items-center gap-3">
                 <Avatar>
-                  <AvatarFallback>XD</AvatarFallback>
+                  <AvatarFallback>AP</AvatarFallback>
                 </Avatar>
                 <div>
-                  <p className="font-bold">xXBroMaxXx</p>
-                  <p className="text-sm text-gray-500 dark:text-gray-400">Professional Vibe Checker</p>
+                  <p className="font-bold">ApeMaximus</p>
+                  <p className="text-sm text-gray-500 dark:text-gray-400">Chief Pie Inspector</p>
                 </div>
               </div>
             </CardContent>
@@ -196,15 +207,15 @@ export default function HomePage() {
           <Card className="hover:shadow-lg transition-all duration-300">
             <CardContent className="pt-6">
               <p className="text-lg mb-4">
-                "This server cured my habit of taking things seriously. 10/10 would recommend"
+                "Got airborne chimp aids, ate 17 pies, absolutely fried. Perfect Discord server"
               </p>
               <div className="flex items-center gap-3">
                 <Avatar>
-                  <AvatarFallback>GG</AvatarFallback>
+                  <AvatarFallback>BD</AvatarFallback>
                 </Avatar>
                 <div>
-                  <p className="font-bold">GigaChad69</p>
-                  <p className="text-sm text-gray-500 dark:text-gray-400">CEO of Chillin'</p>
+                  <p className="font-bold">BigDickBeatOff420</p>
+                  <p className="text-sm text-gray-500 dark:text-gray-400">Professional Beat Offer</p>
                 </div>
               </div>
             </CardContent>
@@ -213,15 +224,15 @@ export default function HomePage() {
           <Card className="hover:shadow-lg transition-all duration-300">
             <CardContent className="pt-6">
               <p className="text-lg mb-4">
-                "My productivity dropped 90% but my happiness increased 420%. Worth it."
+                "Came for the beat off jokes, stayed to smash cold ones with the chimps. We're all fried here."
               </p>
               <div className="flex items-center gap-3">
                 <Avatar>
-                  <AvatarFallback>NG</AvatarFallback>
+                  <AvatarFallback>FC</AvatarFallback>
                 </Avatar>
                 <div>
-                  <p className="font-bold">NoobGamer</p>
-                  <p className="text-sm text-gray-500 dark:text-gray-400">Meme Economist</p>
+                  <p className="font-bold">FriedChimp</p>
+                  <p className="text-sm text-gray-500 dark:text-gray-400">Beer & Pie Sommelier</p>
                 </div>
               </div>
             </CardContent>
@@ -236,20 +247,20 @@ export default function HomePage() {
         <Card className="shadow-xl border-2 border-purple-500/20">
           <CardContent className="p-12 text-center">
             <h2 className="text-4xl md:text-5xl lg:text-6xl font-black mb-6">
-              Ready to Join the Chaos?
+              Time to <span className="text-purple-600">Beat Off</span> With Us?
             </h2>
             <p className="text-xl lg:text-2xl mb-8 max-w-2xl mx-auto">
-              Stop reading this and get in here. We've got memes to share and games to throw.
+              Stop reading, start beating (off). We've got pies to eat and cold ones to smash.
             </p>
             <Link href={discordInviteLink} target="_blank">
               <Button size="lg" className="text-xl px-12 py-8 bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 transform hover:scale-110 transition-all">
                 <MessageCircle className="mr-3" />
-                Join BDBO Corporation
+                Join the Beat Off Brotherhood
                 <Rocket className="ml-3" />
               </Button>
             </Link>
             <p className="text-gray-500 dark:text-gray-400 mt-6">
-              Warning: Side effects may include uncontrollable laughter and new friendships
+              Warning: Side effects include airborne chimp aids, chronic pie addiction, and getting absolutely fried
             </p>
           </CardContent>
         </Card>
@@ -261,7 +272,8 @@ export default function HomePage() {
         <div className="container mx-auto px-4 py-8">
           <div className="text-center text-gray-500 dark:text-gray-400">
             <p className="text-lg mb-2">BDBO Corporation © {new Date().getFullYear()}</p>
-            <p>A Discord server by bros, for bros 🤝</p>
+            <p className="text-md mb-2">Big Dick Beat Off - Keep Calm and Beat Off™</p>
+            <p>A Discord server by chimps, for apes 🦍 🥧 🍺</p>
           </div>
         </div>
       </footer>
