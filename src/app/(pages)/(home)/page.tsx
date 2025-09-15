@@ -26,9 +26,6 @@ export default function HomePage() {
             </h1>
 
             <div className="space-y-4">
-              <p className="text-2xl md:text-3xl lg:text-4xl font-bold text-purple-600 dark:text-purple-400">
-                Big Dick Beat Off
-              </p>
               <p className="text-xl md:text-2xl lg:text-3xl max-w-3xl mx-auto leading-relaxed">
                 Keep Calm and Beat Off™
               </p>
@@ -45,10 +42,12 @@ export default function HomePage() {
                   <ArrowRight className="ml-2" />
                 </Button>
               </Link>
-              <Button size="lg" variant="outline" className="text-lg px-8 py-6 border-purple-600 dark:border-purple-400 hover:bg-purple-100 dark:hover:bg-purple-900/20 transition-all duration-300">
-                <Beer className="mr-2" />
-                Smash Some Cold Ones
-              </Button>
+              <Link href="/lore">
+                <Button size="lg" variant="outline" className="text-lg px-8 py-6 border-purple-600 dark:border-purple-400 hover:bg-purple-100 dark:hover:bg-purple-900/20 transition-all duration-300">
+                  <Beer className="mr-2" />
+                  Learn the Lore
+                </Button>
+              </Link>
             </div>
 
             <div className="flex items-center justify-center gap-8 pt-8">
@@ -254,8 +253,7 @@ export default function HomePage() {
             </p>
             <Link href={discordInviteLink} target="_blank">
               <Button size="lg" className="text-xl px-12 py-8 bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 transform hover:scale-110 transition-all">
-                <MessageCircle className="mr-3" />
-                Join the Beat Off Brotherhood
+                Join the Beat Off
                 <Rocket className="ml-3" />
               </Button>
             </Link>
